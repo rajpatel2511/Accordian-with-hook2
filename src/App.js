@@ -1,7 +1,7 @@
-
+import Accordion from "./Accordion";
 function App() {
   return (
-  <panelA />
+  <Accordion/>
   );
 }
 

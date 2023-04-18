@@ -1,13 +1,15 @@
-import React from "react";
+import React , {useState} from "react";
 
+const PanelA = ({toggle,activePanel}) =>{
 
+console.log(activePanel)
 
-
-render(){
     return(<>
         <h1>P1</h1>
-    <p>this is frist panel</p>
+
+        {activePanel ? <p>this is 1st panel</p>: null}
+     
+    <button onClick={()=>toggle(1)}>click</button>
         </>)
 }
-
 export default PanelA;
