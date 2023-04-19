@@ -4,10 +4,10 @@ const PanelB = ({toggle,activePanel}) =>{
 
 // console.log(toggle)
     return(<>
-        <h1>P2</h1>
-        <button onClick={()=>toggle(2)} >click</button>
+        <h1>P3</h1>
+        <button onClick={()=>toggle(3)} >click</button>
 
-        {activePanel===2 ?  <p>this is 2nd panel <hr /> </p>:null}
+        {activePanel===3 ?  <p>this is 3rd panel <hr />     </p>:null}
 
 
         </>)

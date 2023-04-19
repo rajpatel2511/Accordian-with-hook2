@@ -6,10 +6,10 @@ console.log(activePanel)
 
     return(<>
         <h1>P1</h1>
+        <button onClick={()=>toggle(1)}>click</button>
 
-        {activePanel ? <p>this is 1st panel</p>: null}
+        {activePanel===1 ? <p>this is 1st panel <hr /></p> : null}
      
-    <button onClick={()=>toggle(1)}>click</button>
         </>)
 }
 export default PanelA;
