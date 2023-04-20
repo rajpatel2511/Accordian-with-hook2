@@ -8,7 +8,7 @@ const Accordion = () =>{
 
 const toggle= (num) =>{
     setActivepanel(num);
-    console.log(num)
+    // console.log(num)
 }
 
 return(
