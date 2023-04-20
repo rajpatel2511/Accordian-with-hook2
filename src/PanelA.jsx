@@ -13,7 +13,7 @@ const PanelA = ({toggle,activePanel}) =>{
 
     return(<>
         <h1>P1</h1>
-        <button onClick={()=>toggle(activePanel === 1 ? null : 1)}>click</button>
+        <button onClick={()=>toggle(1)}>click</button>
 
 
         {activePanel===1 ? <p>this is 1st panel </p> : null}
