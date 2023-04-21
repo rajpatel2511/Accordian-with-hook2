@@ -6,17 +6,7 @@ import PanelC from "./PanelC";
 const Accordion = () =>{
     const[activePanel,setActivepanel]=useState(0)
 
-    const p = [
-        {
-          question: "P1",
-          answer:
-            "Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam praesen.",
-        },
-        {
-          question: "p2",
-          answer:
-            "Aperiam ab atque incidunt dolores ullam est, earum ipsa.",
-        },]
+   
 
 const toggle= (num) =>{
     setActivepanel( activePanel === num ?0: num);
@@ -35,4 +25,5 @@ return(
  </>
 )
 }
-export default Accordion;
+
+
